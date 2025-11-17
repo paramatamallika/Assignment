@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            font-family: Arial, sans-serif;
+
+            /* Centers the whole card on the page */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .product-box {
+            width: 500px;
+            height: 600px;
+            background: white;
+
+            padding: 30px;        /* inside spacing */
+            margin: 10px;         /* outside spacing */
+            border: 3px solid grey;
+            border-radius: 20px;  /* smooth edges */
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            text-align: center;
+        }
+
+        .product-box img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin: 10px 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        p {
+            color: #555;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005dc1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-box">
+        <img src="https://m.media-amazon.com/images/I/61e0VdQfknL._AC_UF1000,1000_QL80_.jpg" alt="Smartwatch">
+
+        <h3>Galaxy Health Monitor Smartwatch</h3>
+
+        <p>
+            Track your heart rate, blood pressure, fitness goals and stay connected with an
+            advanced AMOLED display smartwatch.
+        </p>
+
+        <button>Buy Now</button>
+    </div>
+
+</body>
+</html>
